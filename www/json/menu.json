@@ -26,33 +26,122 @@
    
    "Les Classiques" : {
      
-   "British" : 2.40 ,
-   "Nazareth" : 2.40,
-   "Turc" : 2.40,
-   "USA" : 2.40,
-   "Crabs" : 2.40,
-   "Emma" : 2.50,
-   "Mexicain" : 2.50,
-   "Nausica" : 2.50,
-   "Honolulu" :2.60,
-   "Italien" : 2.60,
-   "Biquette": 2.70,
-   "Ocean" : 2.70,
-   "Pepper" : 2.70,
-   "Athena" : 2.80,
-   "Oriental" : 2.90,
-   "Club Poulet" : 2.90,
-   "Toscan" : 3.00
+   "British" : {
+     "price": 2.40,
+     "composition" : ["bacon", "oeufs", "salade", "mayonnaise"]
+   } ,
+  
+   "Nazareth" : {
+     "Price" : 2.40,
+     "Composition" : ["poulet", "salade" ,"olive", "mayonnaise" , "pesto"]
+   },
+       
+   "Turc" : {
+     "price": 2.40,
+     "Compostion" :["gyros", "ail" , "salade", "tomate"]
+   },
+   
+   "USA" : {
+     "price" : 2.40,
+     "Composition" : ["americain", "oeuf", "cornichon" ]
+   },
+   
+   "Crabs" : {
+     "Price" : 2.40,
+     "Composition" : ["crabe", "salade", "Tomate", "mayonnaise"]
+   },
+   
+   "Emma" : {
+     "price" : 2.50,
+     "Composition" : ["poulet", "pane", "chevre", "pesto"]
+   },
+   
+   "Mexicain" : {
+     "price" : 2.50,
+     "Compostion" : ["poulet", "poivrons", "mais", "salade", "salsa"]
+   },
+   
+   "Nausica" : {
+     "price" : 2.50,
+     "Compostion" : ["falafel", "aubergines", "tomates", "coriandre"]
+   },
+   
+   "Honolulu" :{
+     "price" : 2.60,
+     "Composition" : ["poulet", "ananas", "mais", "tomate", "cocktail"]
+   },
+     
+   "Italien" : {
+     "price" : 2.60,
+     "Composition" :["jambon", "italien", "mozzarela", "pesto", "tomate"]
+   },
+   
+   "Biquette": {
+     "price" : 2.70,
+     "Composition" : ["chevre", "lardons", "salade", "miel"]
+   },
+     
+   "Ocean" : {
+     "price" : 2.70,
+     "Composition" :["saumon", "concombre", "fromage blanc"]
+   },
+   
+   "Pepper" : {
+     "price": 2.70,
+     "Composition" :["poulet", "pane", "cheddar", "salade", "tomates", "poivre"]
+   },
+   
+   "Athena" : {
+     "Price" : 2.80,
+     "Composition" : ["feta", "concombres", "olives", "tomates"]
+   },
+   
+   "Oriental" :{
+     "price": 2.90,
+     "Composition": ["falafel", "houmous", "olives", "tomates"]
+   },
+
+   "Club Poulet" : {
+   "price": 2.90,
+       "Composition": ["gouda", "poulet", "mayonnaise", "oeuf", "salade", "tomate"]
+   },
+       
+"Club" :{
+    "price": 2.90,
+    "Composition": ["gouda", "jambon", "cuit", "mayonnaise", "oeuf", "salade", "tomate"]
+},
+   
+"Toscan" :{
+    "price": 3.00,
+    "Composition" : ["carpaccio", "roquette", "tomate", "parmesan", "pesto"]
+   }
+       
    },
    
    "Les Chauds" : {
      
-     "De la mort" : 2.30,
-     "Kefta" : 2.40,
-     "Natacha" : 2.80,
-     "Ad Hoc" : 3.50
+     "De la mort" : {
+         "price": 2.30,
+         "Composition": ["pain de viande", "gouda", "andalouse"]
+     },
+       
+     "Kefta" : {
+         "price": 2.40,
+         "Composition": ["kefta", "tomate", "oignon", "andalouse"]
+     },
+       
+     "Natacha" : {
+         "price" : 2.80,
+         "Composition" : ["brie", "kefta", "tomate", "andalouse"]
+     },
+       
+     "Ad Hoc" :{
+         "price": 3.50,
+         "Composition" : ["boeuf", "frite", "cheddar", "oignon", "salade", "tomate"]
+         
    
    }
  }
    
+}
 }
