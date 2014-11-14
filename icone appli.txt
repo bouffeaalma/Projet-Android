@@ -1,5 +1,0 @@
-<i class="fa fa-shopping-cart"></i>    icone caddie
-
-<i class="fa fa-glass"></i>             icone verre
-
-<i class="fa fa-list-alt"></i>          icone liste
