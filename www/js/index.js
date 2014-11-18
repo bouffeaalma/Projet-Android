@@ -47,3 +47,15 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+window.onload = function() {
+    $(document).ready(function () {
+         //Load categories object JSON
+        jQuery.getJSON("json/menu.json", function(data){         
+
+            for(prop in data) {
+                console.log(prop)
+                    }
+        });
+    });
+}

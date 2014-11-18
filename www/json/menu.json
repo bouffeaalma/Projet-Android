@@ -1,25 +1,85 @@
 {
   "boisson" :{
-    "Chaud fontaine 20Cl" : 1.7 ,
-    "Coca cola 20cl" : 1.7 ,
-    "Coca cola light 20cl ": 1.7 ,
-    "Coca cola zero 20cl" : 1.7 ,
-    "Fanta orange 20 cl" : 1.7 , 
-    "Sprite 20 cl" : 1.7 ,
-    "Appletiser 20 cl" : 1.9 ,
-    "Gini lemon 20 cl" : 1.9 , 
-    "Gini passion 20 cl " : 1.9 ,
-    "ICE TEA (LIPTON)20 cl" : 1.9 ,
-    "ICE TEA green (LIPTON)20 cl" : 1.9 ,
-    "ICE TEA peche (LIPTON)20 cl" : 1.9 ,
-    "Jus d'orange 20 cl" : 1.9 ,
-    "Jus d'ananas 20 cl" : 1.9 ,
-    "Jus de pomme 20 cl" : 1.9 ,
-    "Jus de pomme cerise 20 cl" : 1.9 ,
-    "Jus de tomate 20 cl" : 1.9 ,
-    "Oasis tropical 20 cl" : 1.9 , 
-    "Schweppes agrum 20 cl": 1.9 ,
-    "sSchweppes tonic 20 cl" : 1.9 
+      
+    "Chaud fontaine 20Cl" : {
+        "price" : 1.7
+    },
+      
+    "Coca cola 20cl" : {
+        "price" : 1.7
+    },
+      
+    "Coca cola light 20cl ":{
+        "price" : 1.7
+    },
+      
+    "Coca cola zero 20cl" :{
+        "price": 1.7 
+    },
+      
+    "Fanta orange 20 cl" :{
+        "price":1.7
+    },
+      
+    "Sprite 20 cl" :{
+        "price":1.7 
+    },
+      
+    "Appletiser 20 cl" :{
+        "price":1.9
+    },
+      
+    "Gini lemon 20 cl" :{
+        "price":1.9
+    },
+      
+    "Gini passion 20 cl " :{
+        "price":1.9
+    },
+      
+    "ICE TEA (LIPTON)20 cl" :{
+        "price":1.9
+    },
+      
+    "ICE TEA green (LIPTON)20 cl" :{
+        "price":1.9
+    },
+      
+    "ICE TEA peche (LIPTON)20 cl" :{
+        "price":1.9
+    },
+      
+    "Jus d'orange 20 cl" :{
+        "price":1.9 
+    },
+      
+    "Jus d'ananas 20 cl" :{
+        "price":1.9
+    },
+      
+    "Jus de pomme 20 cl" :{
+        "price":1.9 
+    },
+      
+    "Jus de pomme cerise 20 cl" :{
+        "price":1.9 
+    },
+      
+    "Jus de tomate 20 cl" :{
+        "price":1.9
+    },
+      
+    "Oasis tropical 20 cl" :{
+        "price":1.9
+    },
+    
+    "Schweppes agrum 20 cl":{
+        "pirce":1.9
+    },
+      
+    "sSchweppes tonic 20 cl" :{
+        "price":1.9 
+  }
   },
   
  "Sandwich" : {
