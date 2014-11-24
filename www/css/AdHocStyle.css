@@ -1,17 +1,19 @@
 .ui-icon-myicon:after {
-    background-image: url("../_assets/img/glyphish-icons/21-skull.png");
-    /* Make your icon fit */
-    background-size: 18px 18px;
+background-image: url("Logoadhoc.png");
+/*Make your icon fit */
+background-size: 18px 18px;
 }
 
 /* Fallback */
 .ui-nosvg .ui-icon-myicon:after {
-	background-image: url("iconimg.png");
+	background-image: url("Logoadhoc.png");
 }
 
 .tablemenu{
 border="1";
 }
+
+
 
 table {
     border-collapse: collapse;
