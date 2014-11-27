@@ -1,207 +1,338 @@
 {
-  "boisson" :{
-      
-    "Chaud fontaine 20Cl" : {
-        "price" : 1.7
-    },
-      
-    "Coca cola 20cl" : {
-        "price" : 1.7
-    },
-      
-    "Coca cola light 20cl ":{
-        "price" : 1.7
-    },
-      
-    "Coca cola zero 20cl" :{
-        "price": 1.7 
-    },
-      
-    "Fanta orange 20 cl" :{
-        "price":1.7
-    },
-      
-    "Sprite 20 cl" :{
-        "price":1.7 
-    },
-      
-    "Appletiser 20 cl" :{
-        "price":1.9
-    },
-      
-    "Gini lemon 20 cl" :{
-        "price":1.9
-    },
-      
-    "Gini passion 20 cl " :{
-        "price":1.9
-    },
-      
-    "ICE TEA (LIPTON)20 cl" :{
-        "price":1.9
-    },
-      
-    "ICE TEA green (LIPTON)20 cl" :{
-        "price":1.9
-    },
-      
-    "ICE TEA peche (LIPTON)20 cl" :{
-        "price":1.9
-    },
-      
-    "Jus d'orange 20 cl" :{
-        "price":1.9 
-    },
-      
-    "Jus d'ananas 20 cl" :{
-        "price":1.9
-    },
-      
-    "Jus de pomme 20 cl" :{
-        "price":1.9 
-    },
-      
-    "Jus de pomme cerise 20 cl" :{
-        "price":1.9 
-    },
-      
-    "Jus de tomate 20 cl" :{
-        "price":1.9
-    },
-      
-    "Oasis tropical 20 cl" :{
-        "price":1.9
-    },
-    
-    "Schweppes agrum 20 cl":{
-        "pirce":1.9
-    },
-      
-    "sSchweppes tonic 20 cl" :{
-        "price":1.9 
-  }
-  },
-  
- "Sandwich" : {
-   
-   "Les Classiques" : {
-     
-   "British" : {
-     "price": 2.40,
-     "composition" : ["bacon", "oeufs", "salade", "mayonnaise"]
-   } ,
-  
-   "Nazareth" : {
-     "Price" : 2.40,
-     "Composition" : ["poulet", "salade" ,"olive", "mayonnaise" , "pesto"]
-   },
-       
-   "Turc" : {
-     "price": 2.40,
-     "Compostion" :["gyros", "ail" , "salade", "tomate"]
-   },
-   
-   "USA" : {
-     "price" : 2.40,
-     "Composition" : ["americain", "oeuf", "cornichon" ]
-   },
-   
-   "Crabs" : {
-     "Price" : 2.40,
-     "Composition" : ["crabe", "salade", "Tomate", "mayonnaise"]
-   },
-   
-   "Emma" : {
-     "price" : 2.50,
-     "Composition" : ["poulet", "pane", "chevre", "pesto"]
-   },
-   
-   "Mexicain" : {
-     "price" : 2.50,
-     "Compostion" : ["poulet", "poivrons", "mais", "salade", "salsa"]
-   },
-   
-   "Nausica" : {
-     "price" : 2.50,
-     "Compostion" : ["falafel", "aubergines", "tomates", "coriandre"]
-   },
-   
-   "Honolulu" :{
-     "price" : 2.60,
-     "Composition" : ["poulet", "ananas", "mais", "tomate", "cocktail"]
-   },
-     
-   "Italien" : {
-     "price" : 2.60,
-     "Composition" :["jambon", "italien", "mozzarela", "pesto", "tomate"]
-   },
-   
-   "Biquette": {
-     "price" : 2.70,
-     "Composition" : ["chevre", "lardons", "salade", "miel"]
-   },
-     
-   "Ocean" : {
-     "price" : 2.70,
-     "Composition" :["saumon", "concombre", "fromage blanc"]
-   },
-   
-   "Pepper" : {
-     "price": 2.70,
-     "Composition" :["poulet", "pane", "cheddar", "salade", "tomates", "poivre"]
-   },
-   
-   "Athena" : {
-     "Price" : 2.80,
-     "Composition" : ["feta", "concombres", "olives", "tomates"]
-   },
-   
-   "Oriental" :{
-     "price": 2.90,
-     "Composition": ["falafel", "houmous", "olives", "tomates"]
-   },
-
-   "Club Poulet" : {
-   "price": 2.90,
-       "Composition": ["gouda", "poulet", "mayonnaise", "oeuf", "salade", "tomate"]
-   },
-       
-"Club" :{
-    "price": 2.90,
-    "Composition": ["gouda", "jambon", "cuit", "mayonnaise", "oeuf", "salade", "tomate"]
-},
-   
-"Toscan" :{
-    "price": 3.00,
-    "Composition" : ["carpaccio", "roquette", "tomate", "parmesan", "pesto"]
-   }
-       
-   },
-   
-   "Les Chauds" : {
-     
-     "De la mort" : {
-         "price": 2.30,
-         "Composition": ["pain de viande", "gouda", "andalouse"]
-     },
-       
-     "Kefta" : {
-         "price": 2.40,
-         "Composition": ["kefta", "tomate", "oignon", "andalouse"]
-     },
-       
-     "Natacha" : {
-         "price" : 2.80,
-         "Composition" : ["brie", "kefta", "tomate", "andalouse"]
-     },
-       
-     "Ad Hoc" :{
-         "price": 3.50,
-         "Composition" : ["boeuf", "frite", "cheddar", "oignon", "salade", "tomate"]
-         
-   
-   }
- }
-   
+ 
+    "drinks": [
+ 
+        {
+ 
+            "name": "Chaud fontaine 20Cl",
+ 
+            "price": 1.7
+ 
+        },
+ 
+        {
+ 
+            "name": "Coca cola 20cl",
+ 
+            "price": 1.7
+ 
+        },
+ 
+        {
+ 
+            "name": "Coca cola light 20cl ",
+ 
+            "price": 1.7
+ 
+        },
+        
+        {
+          
+          "name": "Coca cola zero 20cl",
+          "price": 1.7
+          
+        },
+        
+        {
+          "name": "Fanta orange 20cl",
+          "price": 1.7
+          
+        },
+        
+        {
+          
+          "name": "Sprite 20 cl",
+          "price": 1.7
+          
+        },
+        
+        {
+          
+          "name": "Appletiser 20cl",
+          "price": 1.9
+          
+        },
+        
+        {
+          
+          "name": "Gini lemon 20cl",
+          "price": 1.9
+          
+        },
+        
+        {
+          
+          "name": "Gini passion 20cl",
+          "price": 1.9
+          
+        },
+        
+        {
+          
+          "name": "Ice tea (Lipton) 20cl",
+          "price": 1.9
+          
+        },
+        
+        {
+          
+          "name": "Ice tea green (Lipton) 20cl",
+          "price": 1.9
+        
+        },
+        
+        {
+          
+          "name": "Ice tea peche (Lipton) 20cl",
+          "price": 1.9
+          
+        },
+        
+        {
+          
+          "name": "Jus de pomme 20cl",
+          "price": 1.9
+          
+        },
+        
+        {
+          
+          "name": "Jus de pomme cerise 20cl",
+          "price": 1.9
+          
+        },
+        
+        {
+          
+          "name": " Jus de tomate 20cl",
+          "price": 1.9
+          
+        },
+        
+        {
+          
+          "name": "Oasis tropical 20cl",
+          "price": 1.9
+          
+        },
+        
+        {
+          
+          "name": "Schweppes agrum 20cl",
+          "price": 1.9
+          
+        },
+        
+        {
+          
+          "name": "Schweppes tonic 20cl",
+          "price": 1.9
+          
+        }
+        
+    ],
+ 
+    "sandwichs": [
+ 
+        {
+ 
+            "category": "Les Chauds",
+ 
+            "products": [
+ 
+                {
+ 
+                    "name": "De la mort",
+ 
+                    "price": 2.30,
+ 
+                    "composition": ["pain de viande", "gouda", "andalouse"]
+ 
+                },
+ 
+                {
+ 
+                    "name": "Kefta",
+ 
+                    "price": 2.40,
+ 
+                    "composition": ["kefta", "tomate", "oignon", "andalouse"]
+ 
+                },
+                
+                {
+                    "name": "Natacha",
+                    "price": 2.80,
+                    "composition": ["brie", "kefta", "tomate", "andalouse"]
+                    
+                },
+                
+                {
+                    "name": "Ad Hoc",
+                    "price": 3.50,
+                    "composition": ["boeuf", "frite", "cheddar", "oignon", "salade", "tomate"]
+                    
+                }
+ 
+            ]
+        },
+        
+        {
+ 
+            "category": "Les Classiques",
+ 
+            "products": [
+ 
+                {
+ 
+                    "name": "British", 
+                    "price": 2.40, 
+                    "composition": ["bacon", "oeufs", "salade", "mayonnaise"]
+ 
+                },
+ 
+                {                    
+ 
+                    "name": "Nazareth", 
+                    "price": 2.40, 
+                    "composition" : ["poulet", "salade" ,"olive", "mayonnaise" , "pesto"]
+ 
+                },
+                
+                 {
+ 
+                    "name": "Turc", 
+                    "price": 2.40, 
+                    "composition": ["gyros", "ail" , "salade", "tomate"]
+ 
+                },
+                
+                 {
+ 
+                    "name": "USA", 
+                    "price": 2.40, 
+                    "composition": ["americain", "oeuf", "cornichon" ]
+ 
+                },
+                
+                 {
+ 
+                    "name": "Crabs", 
+                    "price": 2.40, 
+                    "composition": ["crabe", "salade", "Tomate", "mayonnaise"]
+ 
+                },
+                
+                 {
+ 
+                    "name": "Emma", 
+                    "price": 2.50, 
+                    "composition": ["poulet", "pane", "chevre", "pesto"]
+ 
+                },
+                
+                 {
+ 
+                    "name": "Mexicain", 
+                    "price": 2.50, 
+                    "composition": ["poulet", "poivrons", "mais", "salade", "salsa"]
+                     
+                },
+                
+                 {
+ 
+                    "name": "Nausica", 
+                    "price": 2.50, 
+                    "composition": ["falafel", "aubergines", "tomates", "coriandre"]
+ 
+                },
+                
+                 {
+ 
+                    "name": "Honolulu", 
+                    "price": 2.60, 
+                    "composition": ["poulet", "ananas", "mais", "tomate", "cocktail"]
+ 
+                },
+                
+                 {
+ 
+                    "name": "Italien", 
+                    "price": 2.60, 
+                    "composition": ["jambon", "italien", "mozzarela", "pesto", "tomate"]
+ 
+                },
+                
+               {
+ 
+                    "name": "Biquette", 
+                    "price": 2.70, 
+                    "composition": ["chevre", "lardons", "salade", "miel"]
+ 
+                },
+                
+                 {
+ 
+                    "name": "Ocean", 
+                    "price": 2.70, 
+                    "composition": ["saumon", "concombre", "fromage blanc"]
+ 
+                },
+                
+                 {
+ 
+                    "name": "Pepper", 
+                    "price": 2.70, 
+                    "composition": ["poulet", "pane", "cheddar", "salade", "tomates", "poivre"]
+ 
+                },
+                
+                 {
+ 
+                    "name": "Athena", 
+                    "price": 2.80, 
+                    "composition": ["feta", "concombres", "olives", "tomates"]
+ 
+                },
+                
+                 {
+ 
+                    "name": "Oriental", 
+                    "price": 2.90, 
+                    "composition": ["falafel", "houmous", "olives", "tomates"]
+ 
+                },
+                
+                 {
+ 
+                    "name": "Club Poulet", 
+                    "price": 2.90, 
+                    "composition": ["gouda", "poulet", "mayonnaise", "oeuf", "salade", "tomate"]
+ 
+                },
+                
+                 {
+ 
+                    "name": "Club", 
+                    "price": 2.90, 
+                    "composition": ["gouda", "jambon", "cuit", "mayonnaise", "oeuf", "salade", "tomate"]
+ 
+                },
+                
+                 {
+ 
+                    "name": "Toscan", 
+                    "price": 3.00, 
+                    "composition": ["carpaccio", "roquette", "tomate", "parmesan", "pesto"]
+ 
+                      }
+ 
+             ]
+ 
+        }
+ 
+    ]
+ 
 }
-}
+                    
+                    
