@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-<title>HTML5, CSS3 and JavaScript demo</title>
-<link type="text/css" rel="stylesheet" href="css/style.css"/>
-</head>
-<body>
+    <head>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <title>HTML5, CSS3 and JavaScript demo</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <meta charset="utf8">
+    </head>
 
-<div></div>
-  
-<script type="text/javascript" src="js/script.js"></script>
-</body>
+    <body>
+
+        <div></div>
+
+
+        <script>
+
+            $.getJSON( "menu.json", function( result ) {
+                
+
+                $("div").append('<h1>Les Boissons</h1>');
+                $.each(result.drinks, function(nom, drink) {
+                    $("div").append('<a href=\'javascript:alert("'+drink.name+'")\'><strong>'+drink.name+'</strong>: '+drink.price+'€<br /></a>');
+                });
+
+                $("div").append('<h1>Les Sandwichs</h1>');
+                $.each(result.sandwichs, function(nom, sandwich) {
+
+                    $("div").append('<h2>'+sandwich.category+'</h2>');
+
+                    $.each(sandwich.products, function(i, product) {
+
+                        $("div").append('<strong>'+product.name+'</strong> '+product.price+'€ <i>('+product.composition+')</i><br />');
+
+                    });
+
+                });      
+            })
+        </script>
+
+
+
+    </body>
 </html>

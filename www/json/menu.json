@@ -1,9 +1,10 @@
 {
  
-    "Boissons": [
+    "drinks": [
  
         {
  
+            "id" : 1,
             "name": "Chaud fontaine 20Cl",
  
             "price": 1.7
@@ -132,7 +133,7 @@
         
     ],
  
-    "Sandwichs": [
+    "sandwichs": [
  
         {
  
@@ -334,5 +335,3 @@
     ]
  
 }
-                    
-                    
