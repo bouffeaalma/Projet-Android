@@ -1,4 +1,5 @@
-﻿<?php 
+﻿
+<?php 
 $formNom = $_POST['nom']; 
 
 if(!empty($formNom)) 
@@ -12,7 +13,7 @@ echo 'les informations ont bien été envoyées!';
 } 
 else 
 { 
-echo 'une erreur est survenue lors de l\'envoi du message'; } 
+echo 'une erreur est survenu lors de l\'envoi du message'; } 
 } 
 else 
 { 
