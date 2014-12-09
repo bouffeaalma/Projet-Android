@@ -1,38 +1,38 @@
-﻿<!DOCTYPE html>
-	<html lang="fr">
-	
-		<head>
-			<meta charset="UTF-8">
-			<title>  *Bouffe sur Alma Campus*</title>
-			<link rel="stylesheet" href="css/AdHocStyle.css"/>
-				<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-				<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-				<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-				<script src="js/index.js"></script>
-		</head>
-		
-		<body>
-			<div data-role="navbar">
-				<ul>
-					<li><a href="#" class="ui-btn-active">Ad Hoc</a></li>
-					<li><a href="menu.html">Menu</a></li>
-					<li><a href="panier.html">Panier</a></li>
-				</ul>
-			</div><!-- /navbar -->
-			
-			<div>
-				<ul data-role="listview" data-inset="true" data-divider-theme="a">
-				<li data-role="list-divider">Apéritifs</li>
-				<li><a href="#">Mojito</a></li>
-				<li><a href="#">Coca-Vodka</a></li>
-				<li data-role="list-divider">Bières</li>
-				<li><a href="#">Jupiler</a></li>
-				<li><a href="#">Hoegaarden</a></li>
-				</ul>
-			</div>
-			
-			
-			
-		</body>
-		
-	</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <title>HTML5, CSS3 and JavaScript demo</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <meta charset="utf8">
+    </head>
+
+    <body>
+
+        <div></div>
+
+
+        <script>
+
+            $.getJSON( "json/menu.json", function( result ) {
+                
+
+                $("div").append('<h1>Les Boissons</h1>');
+                
+                $.each(result.drinks, function(index, drink) {
+                    $("div").append('<a id='+drink.id+' class="drink" href="#">'+drink.name+': '+drink.price+'€</a><br/>');
+                });
+                $(".drink").on("click", function() { 
+                    var id = this.id
+                    localStorage["boisson"]=id
+                    
+                });
+                    });
+
+            
+        </script>
+
+
+
+    </body>
+</html>
